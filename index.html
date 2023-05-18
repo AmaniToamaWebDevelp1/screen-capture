@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen Capture API</title>
+    <style>
+        h1{
+            text-align: center;
+            padding: 10px;
+            color: #fff;
+            font-weight: 300;
+            text-shadow: 10px 2px 10px #000;
+        }
+        body{
+            background-color: rgb(71, 42, 125);
+        }
+        button{
+           
+            width: 80px;
+            height: 35px;
+            text-shadow: 10px 2px 10px #000;
+            background-color: rgb(122, 105, 156);
+            color: #fff;
+            font-weight: 300;
+            border-radius: 15px;
+         
+
+        }
+        .video{
+            width: 200px;
+            height: 170px;
+            border: 3px #000;
+            background-color: #635a5a;
+            margin: auto;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        video{
+            width: 500px;
+            height: 400px;
+            
+        }
+        .btn{
+            width: 80px;
+            height: 35px;
+            margin: auto;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Screen Capture</h1>
+    <div class="video">
+        Your video here...
+        <video id="preview" autoplay>Your browser doesn't support html5</video>
+    </div>
+   
+    <br>
+    <div class="btn">
+        
+        <button id="start">Start</button>
+    </div>
+    
+    <script src="api.js"></script>
+</body>
+</html>
